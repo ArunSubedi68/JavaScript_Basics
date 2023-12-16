@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <p class="title-of-game">Rock Paper Scissor</p>
+    <button onclick="
+        random();
+        passIt('rock');
+        " class="rockButton"><img src="images/rock-emoji.png" class="button-emoji"></button>
+    <button onclick="
+        random();
+        passIt('paper');
+        " class="paperButton"><img src="images/paper-emoji.png" class="button-emoji"></button>
+    <button onclick="
+        random();
+        passIt('scissor');
+        " class="scissorButton"><img src="images/scissor-emoji.png" class="button-emoji"></button>
+
+<p class="results ">Lets Play</p><br>
+<p class="whoWhat">Choices</p><br>
+<p class="winAmount">Win: 0 Lose: 0 Tie: 0</p>
+<button onclick="resetAll()" class="reserAllButton">Reset Count</button>
+
+</div>
+<script src="index.js">
+        
+</script>
+</body>
+</html>

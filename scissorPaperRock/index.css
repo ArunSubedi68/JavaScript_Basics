@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.title-of-game{
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+
+.button-emoji {
+    height: 4vw;
+    width: 4vw;
+}
+
+.rockButton {
+    cursor: pointer;
+    height: 7vw;
+    width: 7vw; 
+    margin-right: 1vw;
+    background-color: black;
+    border-radius: 100%;
+    border:0.2vw solid white;
+    
+
+}
+
+.paperButton {
+    cursor: pointer;
+    height: 7vw;
+    width: 7vw; 
+    margin-right: 1vw;
+    background-color: black;
+    border-radius: 100%;
+    border:0.2vw solid white;
+
+}
+
+.scissorButton {
+    cursor: pointer;
+    height: 7vw;
+    width: 7vw; 
+    background-color: black;
+    border-radius: 100%;
+    border:0.2vw solid white;
+
+
+}
+
+.results {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.winResult {
+    color: rgb(14, 155, 14);
+}
+.loseResult {
+    color: rgb(255, 0, 0);
+}
+.tieResult {
+    color: rgb(45, 184, 177);
+}
+
+.whoWhat {
+    margin-top:auto;
+    font-size: 2.5vw;
+    color: white;
+    margin-bottom: 1.5vw;
+}
+
+.winAmount {
+    margin-top:auto;
+    font-size: 2.5vw;
+    color: white;
+    margin-bottom: 1.9vw;
+}
+
+.reserAllButton {
+    height: 2vw;
+    width: 9vw;
+    color: rgb(224, 223, 223);
+    color: black;
+    font-weight: bold;
+    font-size:1vw;
+}
